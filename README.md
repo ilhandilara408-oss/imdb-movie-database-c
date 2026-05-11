@@ -39,5 +39,5 @@ budget;title;title type;directors;rating;runtime;year;genres;votes;top250;1001 m
 
 ## Files
 
-- `odev.c` — Source code
+- `imdb_database.c` — Source code
 - `movie.txt` — IMDB movie dataset
