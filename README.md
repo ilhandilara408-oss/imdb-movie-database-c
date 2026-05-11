@@ -23,7 +23,7 @@ The program uses two main structs:
 ## Build & Run
 
 ```bash
-gcc -o movies odev.c
+gcc -o movies imdb_database.c
 ./movies
 ```
 
@@ -32,12 +32,3 @@ The program expects `movie.txt` to be in the same directory as the executable.
 ## Data Format
 
 `movie.txt` is a semicolon-separated (`;`) file with the following columns:
-
-```
-budget;title;title type;directors;rating;runtime;year;genres;votes;top250;1001 must see;url
-```
-
-## Files
-
-- `imdb_database.c` — Source code
-- `movie.txt` — IMDB movie dataset
